@@ -12,7 +12,7 @@ We use vagrant + virtualbox to build the image so you need to make sure that you
 ```
 docker login
 ```
-* clone, configure your docker hub username to allow vagrant to autopublish the resulting image
+* clone and configure your docker hub username to allow vagrant to autopublish the resulting image
 ```
 git clone https://github.com/veilleperso/docker-ubuntu32bits.git
 cf docker-ubuntu32bits
