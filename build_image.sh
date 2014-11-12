@@ -15,4 +15,4 @@ chmod 755 /root/mkimage-debootstrap.sh
 /root/mkimage-debootstrap.sh -ai386 ${DOCKER_USERNAME}/trusty32 trusty http://ubuntu.mirrors.ovh.net/ftp.ubuntu.com/ubuntu/
 
 mv /tmp/.dockercfg /root/.dockercfg
-docker push ${DOCKER_USER}/trusty32
+docker push ${DOCKER_USERNAME}/trusty32
