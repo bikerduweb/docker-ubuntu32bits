@@ -1,6 +1,6 @@
 #!/bin/sh
 DOCKER_USERNAME=$(cat /tmp/docker_username)
-if [ "${DOCKER_USERNAME}" -eq "" ]; then
+if [ "${DOCKER_USERNAME}" = "" ]; then
   echo "ERROR: you must configure your docker username before running this vagrant machine"
   exit
 fi
