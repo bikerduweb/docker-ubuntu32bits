@@ -21,10 +21,15 @@ echo "username" > ./docker_username
 * run
 ```
 vagrant up --provision
+vagrant halt
 ```
 
 If everything work, you should have a proper image pushed in your account on the docker registry
 
+To remove the vagrant machine:
+```
+vagrant destroy
+```
 
 ## Contribution
 
